@@ -19,12 +19,12 @@ Comparison between following architectures for document classification:
 ## Architectures
 ### Convolutional Neural Networks
 #### Character-level Convolutional Networks (char-CNN)
-!["Text Understanding from Scratch: Figure 2. Illustration of our model"](3-Figure2-1.png)
-
+!["Text Understanding from Scratch: Figure 2. Illustration of our model"][char-CNN-Figure2-1]
+char-CNN
 [Image source: [Semantic Scholar](https://www.semanticscholar.org/paper/Text-Understanding-from-Scratch-Zhang-LeCun/1336146e7f95b295bb73c7659c6af4befd86cbdd)]
 
 #### Very Deep Convolutional Networks for Text Classification (VDCNN)
-!["Very Deep Convolutional Networks for Text Classification. Figure 1: Global architecture with convolutional blocks. See text for details."](3-Figure1-1.png)
+!["Very Deep Convolutional Networks for Text Classification. Figure 1: Global architecture with convolutional blocks. See text for details."][VDCNN-Figure2-1]
 
 [Image source: [Semantic Scholar](https://www.semanticscholar.org/paper/Very-Deep-Convolutional-Networks-for-Text-Classifi-Schwenk-Barrault/84ca430856a92000e90cd728445ca2241c10ddc3)]
 ### Recurrent Neural Networks
@@ -169,3 +169,7 @@ __[Generative and Discriminative Text Classification with Recurrent Neural Netwo
 ##### Admin:
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Markdown TOC in Atom](https://atom.io/packages/markdown-toc)
+
+---
+[char-CNN-Figure2-1]: img/3-Figure2-1.png
+[VDCNN-Figure2-1]: img/3-Figure1-1.png
