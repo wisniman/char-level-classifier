@@ -24,7 +24,7 @@ Comparison between following architectures for document classification:
 [Image source: [Semantic Scholar](https://www.semanticscholar.org/paper/Text-Understanding-from-Scratch-Zhang-LeCun/1336146e7f95b295bb73c7659c6af4befd86cbdd)]
 
 #### Very Deep Convolutional Networks for Text Classification (VDCNN)
-!["Very Deep Convolutional Networks for Text Classification. Figure 1: Global architecture with convolutional blocks. See text for details."](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/84ca430856a92000e90cd728445ca2241c10ddc3/3-Figure1-1.png)
+!["Very Deep Convolutional Networks for Text Classification. Figure 1: Global architecture with convolutional blocks. See text for details."](3-Figure1-1.png)
 
 [Image source: [Semantic Scholar](https://www.semanticscholar.org/paper/Very-Deep-Convolutional-Networks-for-Text-Classifi-Schwenk-Barrault/84ca430856a92000e90cd728445ca2241c10ddc3)]
 ### Recurrent Neural Networks
