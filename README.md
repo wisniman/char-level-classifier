@@ -19,7 +19,7 @@ Comparison between following architectures for document classification:
 ## Architectures
 ### Convolutional Neural Networks
 #### Character-level Convolutional Networks (char-CNN)
-!["Text Understanding from Scratch: Figure 2. Illustration of our model"](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/1336146e7f95b295bb73c7659c6af4befd86cbdd/3-Figure2-1.png)
+!["Text Understanding from Scratch: Figure 2. Illustration of our model"](3-Figure2-1.png)
 
 [Image source: [Semantic Scholar](https://www.semanticscholar.org/paper/Text-Understanding-from-Scratch-Zhang-LeCun/1336146e7f95b295bb73c7659c6af4befd86cbdd)]
 
