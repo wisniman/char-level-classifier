@@ -2,28 +2,28 @@ Character-level Document Classification with CNN and RNN/LSTM
 ===
 ## Objective
 Comparison between following architectures for document classification:
-1. Convolutional Neural Networks:
+1. __Convolutional Neural Networks:__
    - Character-level Convolutional Networks (char-CNN): [[Zhang and LeCun2015]](https://arxiv.org/abs/1502.01710), [[Zhang et al.2015]](https://arxiv.org/abs/1509.01626)
    - Very Deep Convolutional Networks for Text Classification (VDCNN): [[Conneau et al.2016]](https://arxiv.org/abs/1606.01781)
-2. Recurrent Neural Networks:
+2. __Recurrent Neural Networks:__
    - Word-based (word2vec) LSTM: [[Zhang and LeCun2015]](https://arxiv.org/abs/1502.01710), [[Greff et al.2015]](https://arxiv.org/abs/1503.04069), [[Pascanu et al.2012]](https://arxiv.org/abs/1211.5063), [[Graves and Schmidhuber2005]](ftp://ftp.idsia.ch/pub/juergen/nn_2005.pdf)
    - Bidirectional LSTM: [[Graves and Schmidhuber2005]](ftp://ftp.idsia.ch/pub/juergen/nn_2005.pdf), + Max Pooling [[Zhou et al.2016]](https://arxiv.org/abs/1611.06639)
    - Stacked LSTM
    - _(Gated Recurrent Neural Network: [[Tang et al.2015]](http://aclweb.org/anthology/D15-1167))_
-3. Combined Convolutional and Recurrent Neural Networks:
+3. __Combined Convolutional and Recurrent Neural Networks:__
    - Convolutional Network and LSTM (char-CRNN): [[Xiao and Cho2016]](https://arxiv.org/abs/1602.00367), [[Zhou et al.2015]](https://arxiv.org/abs/1511.08630)
-4. Other:
+4. __Other:__
    - _Fasttext: [[Joulin2016]](https://arxiv.org/abs/1607.01759)_
    - Encoder-Decoder, Recurrent, Generative vs. Discriminative [[Yogatama et al.2017]](https://arxiv.org/abs/1703.01898), ...
 ---
 ## Architectures
 ### Convolutional Neural Networks
 #### Character-level Convolutional Networks (char-CNN)
-![alt text](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/1336146e7f95b295bb73c7659c6af4befd86cbdd/3-Figure2-1.png "Text Understanding from Scratch: Figure 2. Illustration of our model")
+!["Text Understanding from Scratch: Figure 2. Illustration of our model"](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/1336146e7f95b295bb73c7659c6af4befd86cbdd/3-Figure2-1.png)
 
 [Image source: [Semantic Scholar](https://www.semanticscholar.org/paper/Character-level-Convolutional-Networks-for-Text-Cl-Zhang-Zhao/2e10643c3759f97b673ff8c297778c0b6c20032b)]
 #### Very Deep Convolutional Networks for Text Classification (VDCNN)
-![alt text](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/84ca430856a92000e90cd728445ca2241c10ddc3/3-Figure1-1.png "Very Deep Convolutional Networks for Text Classification. Figure 1: Global architecture with convolutional blocks. See text for details.")
+!["Very Deep Convolutional Networks for Text Classification. Figure 1: Global architecture with convolutional blocks. See text for details."](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/84ca430856a92000e90cd728445ca2241c10ddc3/3-Figure1-1.png)
 
 [Image source: [Semantic Scholar](https://www.semanticscholar.org/paper/Very-Deep-Convolutional-Networks-for-Text-Classifi-Schwenk-Barrault/84ca430856a92000e90cd728445ca2241c10ddc3)]
 ### Recurrent Neural Networks
