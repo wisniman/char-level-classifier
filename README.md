@@ -3,18 +3,18 @@ Character-level Document Classification with CNN and RNN/LSTM
 ## Objective
 Comparison between following architectures for document classification:
 1. Convolutional Neural Networks:
-  - Character-level Convolutional Networks (char-CNN): [[Zhang and LeCun2015]](https://arxiv.org/abs/1502.01710), [[Zhang et al.2015]](https://arxiv.org/abs/1509.01626)
-  - Very Deep Convolutional Networks for Text Classification (VDCNN): [[Conneau et al.2016]](https://arxiv.org/abs/1606.01781)
+   - Character-level Convolutional Networks (char-CNN): [[Zhang and LeCun2015]](https://arxiv.org/abs/1502.01710), [[Zhang et al.2015]](https://arxiv.org/abs/1509.01626)
+   - Very Deep Convolutional Networks for Text Classification (VDCNN): [[Conneau et al.2016]](https://arxiv.org/abs/1606.01781)
 2. Recurrent Neural Networks:
-  - Word-based (word2vec) LSTM: [[Zhang and LeCun2015]](https://arxiv.org/abs/1502.01710), [[Greff et al.2015]](https://arxiv.org/abs/1503.04069), [[Pascanu et al.2012]](https://arxiv.org/abs/1211.5063), [[Graves and Schmidhuber2005]](ftp://ftp.idsia.ch/pub/juergen/nn_2005.pdf)
-  - Bidirectional LSTM: [[Graves and Schmidhuber2005]](ftp://ftp.idsia.ch/pub/juergen/nn_2005.pdf), + Max Pooling [[Zhou et al.2016]](https://arxiv.org/abs/1611.06639)
-  - Stacked LSTM
-  - _(Gated Recurrent Neural Network: [[Tang et al.2015]](http://aclweb.org/anthology/D15-1167))_
+   - Word-based (word2vec) LSTM: [[Zhang and LeCun2015]](https://arxiv.org/abs/1502.01710), [[Greff et al.2015]](https://arxiv.org/abs/1503.04069), [[Pascanu et al.2012]](https://arxiv.org/abs/1211.5063), [[Graves and Schmidhuber2005]](ftp://ftp.idsia.ch/pub/juergen/nn_2005.pdf)
+   - Bidirectional LSTM: [[Graves and Schmidhuber2005]](ftp://ftp.idsia.ch/pub/juergen/nn_2005.pdf), + Max Pooling [[Zhou et al.2016]](https://arxiv.org/abs/1611.06639)
+   - Stacked LSTM
+   - _(Gated Recurrent Neural Network: [[Tang et al.2015]](http://aclweb.org/anthology/D15-1167))_
 3. Combined Convolutional and Recurrent Neural Networks:
-  - Convolutional Network and LSTM (char-CRNN): [[Xiao and Cho2016]](https://arxiv.org/abs/1602.00367), [[Zhou et al.2015]](https://arxiv.org/abs/1511.08630)
+   - Convolutional Network and LSTM (char-CRNN): [[Xiao and Cho2016]](https://arxiv.org/abs/1602.00367), [[Zhou et al.2015]](https://arxiv.org/abs/1511.08630)
 4. Other:
-  - _Fasttext: [[Joulin2016]](https://arxiv.org/abs/1607.01759)_
-  - Encoder-Decoder, Recurrent, Generative vs. Discriminative [[Yogatama et al.2017]](https://arxiv.org/abs/1703.01898), ...
+   - _Fasttext: [[Joulin2016]](https://arxiv.org/abs/1607.01759)_
+   - Encoder-Decoder, Recurrent, Generative vs. Discriminative [[Yogatama et al.2017]](https://arxiv.org/abs/1703.01898), ...
 ---
 ## Architectures
 ### Convolutional Neural Networks
@@ -42,14 +42,14 @@ Comparison between following architectures for document classification:
 ---
 ## Datasets
 1. Predefined datasets:
-  - __AG__'s news corpus _(English)_
-  - __Sogou__ news corpus _(Chinese)_
-  - __DBPedia__ ontology dataset _(English)_
-  - __Yelp__ reviews _(English)_
-  - __Yahoo! Answers__ dataset _(English)_
-  - __Amazon__ reviews _(English)_
+   - __AG__'s news corpus _(English)_
+   - __Sogou__ news corpus _(Chinese)_
+   - __DBPedia__ ontology dataset _(English)_
+   - __Yelp__ reviews _(English)_
+   - __Yahoo! Answers__ dataset _(English)_
+   - __Amazon__ reviews _(English)_
 2. Self-generated dataset:
-  - __Spiegel Online__ news corpus _(German)_
+   - __Spiegel Online__ news corpus _(German)_
 
 ### Predefined Datasets
 |Dataset                  |Train    |Test  |Classes|
